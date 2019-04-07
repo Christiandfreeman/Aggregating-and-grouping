@@ -1,0 +1,7 @@
+SELECT 
+	COUNT(*) as total_trips,start_station
+FROM
+	trips
+GROUP BY start_station
+
+

@@ -1,0 +1,7 @@
+SELECT 
+	 MIN(duration) AS shortest_trip
+FROM
+	trips
+
+
+
